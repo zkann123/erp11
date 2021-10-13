@@ -41,12 +41,4 @@ public class KcController {
         System.out.println(id);
         return "/index.jsp";
     }
-    @RequestMapping(value="/newsAdd")
-    @ResponseBody//*****
-    public String  newsAdd(ContentVo vo) throws IOException {
-        System.out.println("更新时间？："+vo.getNewsBean().getTurnover());
-        List<NewsContent> newsContent = vo.getNewsContent();
-        System.out.println(newsContent);
-        return "/index.jsp";
-    }
 }
