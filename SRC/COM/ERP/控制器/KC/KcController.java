@@ -37,7 +37,7 @@ public class KcController {
     @RequestMapping(value="/test")
     @ResponseBody
     public String  test(Model model,double id) throws IOException {
-        model.addAttribute("mrd","model请求域中的数据");
+        model.addAttribute("mrd","model请求域中的数据");//fffggffgfgf
         System.out.println(id);//ghfgfgfghfh
         return "/index.jsp";
     }
