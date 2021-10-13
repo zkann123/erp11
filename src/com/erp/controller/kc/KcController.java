@@ -35,7 +35,7 @@ public class KcController {
         return pageBean.getList();
     }
     @RequestMapping(value="/test")
-    @ResponseBody//*****
+    @ResponseBody
     public String  test(Model model,double id) throws IOException {
         model.addAttribute("mrd","model请求域中的数据");
         System.out.println(id);
