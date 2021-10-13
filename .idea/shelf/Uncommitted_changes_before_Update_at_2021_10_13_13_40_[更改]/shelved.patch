@@ -1,0 +1,137 @@
+Index: src/com/erp/controller/kc/renren.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/erp/controller/kc/renren.java b/src/com/erp/controller/kc/renren.java
+new file mode 100644
+--- /dev/null	(date 1634095377998)
++++ b/src/com/erp/controller/kc/renren.java	(date 1634095377998)
+@@ -0,0 +1,7 @@
++package com.erp.controller.kc;
++
++public class renren {
++    public void renren(){
++        System.out.println("asdfasdfa");
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1634103542423)
++++ b/.idea/workspace.xml	(date 1634103542423)
+@@ -0,0 +1,70 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="2e3e7dbc-243c-4037-a8b8-24c33208dd93" name="更改" comment="更改">
++      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/com/erp/controller/kc/renren.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/erp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/erp.iml" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="PUSH_TAGS">
++      <GitPushTagMode>
++        <option name="argument" value="--tags" />
++        <option name="title" value="All" />
++      </GitPushTagMode>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="ProjectId" id="1zQzt76IFPEycIS0r4k5fJya3Jo" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="默认任务">
++      <changelist id="2e3e7dbc-243c-4037-a8b8-24c33208dd93" name="更改" comment="" />
++      <created>1634095310738</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1634095310738</updated>
++      <workItem from="1634095312021" duration="218000" />
++      <workItem from="1634095546511" duration="1864000" />
++    </task>
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+Index: erp.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet type=\"web\" name=\"Web\">\r\n      <configuration>\r\n        <descriptors>\r\n          <deploymentDescriptor name=\"web.xml\" url=\"file://$MODULE_DIR$/web/WEB-INF/web.xml\" />\r\n        </descriptors>\r\n        <webroots>\r\n          <root url=\"file://$MODULE_DIR$/web\" relative=\"/\" />\r\n        </webroots>\r\n      </configuration>\r\n    </facet>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"module-library\" exported=\"\">\r\n      <library>\r\n        <CLASSES>\r\n          <root url=\"file://$MODULE_DIR$/web/WEB-INF/lib\" />\r\n        </CLASSES>\r\n        <JAVADOC />\r\n        <SOURCES />\r\n        <jarDirectory url=\"file://$MODULE_DIR$/web/WEB-INF/lib\" recursive=\"false\" />\r\n      </library>\r\n    </orderEntry>\r\n    <orderEntry type=\"library\" exported=\"\" scope=\"PROVIDED\" name=\"Tomcat 7.0.70\" level=\"application_server_libraries\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/erp.iml b/erp.iml
+--- a/erp.iml	(revision 5f1baf23506ee02b48c6139639807000cabe7b23)
++++ b/erp.iml	(date 1634095470606)
+@@ -9,6 +9,7 @@
+         <webroots>
+           <root url="file://$MODULE_DIR$/web" relative="/" />
+         </webroots>
++        <sourceRoots />
+       </configuration>
+     </facet>
+   </component>
+Index: .idea/runConfigurations.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations.xml b/.idea/runConfigurations.xml
+new file mode 100644
+--- /dev/null	(date 1634095470622)
++++ b/.idea/runConfigurations.xml	(date 1634095470622)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RunConfigurationProducerService">
++    <option name="ignoredProducers">
++      <set>
++        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
++      </set>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
